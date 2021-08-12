@@ -12,7 +12,8 @@
   "lint-staged": {
     "src/**/*": [
       "npm run lint --fix"
-    ]
+    ],
+    "*.js": "eslint --cache --fix"
   },
   "dependencies": {
     "next": "11.0.1",
